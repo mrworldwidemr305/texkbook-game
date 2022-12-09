@@ -61,7 +61,7 @@ room = 1
 choice = 'a'
 def FloorFall():
     num = random.randrange(0, 100)
-    if num < 5 :
+    if num < 65 :
         print("The floor opens you are falling down into a tank full of sharks, You have DIED!!!!")
         PlayerHealth = 0
         return True
